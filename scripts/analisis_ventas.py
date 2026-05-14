@@ -11,7 +11,7 @@ if os.path.exists(ruta_datos):
     df = pd.read_csv(ruta_datos)
     
     # Convertimos la fecha a formato datetime para que el gráfico salga ordenado
-    # Ajustá 'sales_date' al nombre real de la columna en tu CSV
+    # Ajustá 'sales_date' al nombre real de la columna en CSV
     if 'sales_date' in df.columns:
         df['sales_date'] = pd.to_datetime(df['sales_date'])
         df = df.sort_values('sales_date')
@@ -24,7 +24,6 @@ else:
     df = pd.DataFrame(data)
 
 # --- PROCESAMIENTO ---
-# Usamos 'sales_amount' que es el nombre estándar en el dataset sugerido
 total = df['sales_amount'].sum()
 promedio = df['sales_amount'].mean()
 
