@@ -1,2 +1,6 @@
-# gestion_ventas_UTN
-Repositorio para la gestión de ventas, Trabajo Practico de Organización Empresarial - Tecnicatura en Programación a Distancia - UTN
+# Proyecto: Análisis de Ventas - Célula de Trabajo UTN
+**Escenario Elegido:** Escenario B (Ventas)
+**Integrantes:** Leiva Christian Nicolás (Simulando Roles Lider, Programador, QA)
+
+## Descripción
+Este proyecto analiza un dataset de ventas para obtener indicadores clave de rendimiento (KPIs) y tendencias temporales.
